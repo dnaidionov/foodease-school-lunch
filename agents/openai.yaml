@@ -1,0 +1,4 @@
+interface:
+  display_name: "Foodease School Lunch"
+  short_description: "Choose and place school meal orders in Foodease"
+  default_prompt: "Use $foodease-school-lunch to review the upcoming school menu, apply the family preferences, and prepare an order."

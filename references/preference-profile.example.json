@@ -1,0 +1,14 @@
+{
+  "profile_name": "parent-selected-local-name",
+  "children": {
+    "child-label-as-shown-in-account": {
+      "meals": ["lunch"],
+      "likes": [],
+      "dislikes": [],
+      "hard_exclusions": [],
+      "optional_item_rule": "skip unless parent prefers otherwise",
+      "fallback_rule": "skip and report when no suitable option is clear"
+    }
+  },
+  "last_confirmed": "YYYY-MM-DD"
+}
