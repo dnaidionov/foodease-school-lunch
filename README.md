@@ -33,13 +33,13 @@ If your ChatGPT account has **Skills**:
 
 The assistant needs browser control to interact with Foodease. Allow it to use the Foodease website when prompted. Sign in directly on the website; never send your password in the chat. If the assistant can’t control a browser, it may be able to help review choices, but it can’t place the order.
 
-Start with a request like:
+For example, on the first order:
 
-> Use the Foodease School Lunch skill to order lunch for next month. I’ll sign in when prompted. Ask me for any meal preferences you need, then remember them for future orders. Submit the meal orders, but don’t add funds or make a payment. Show me the order when you’re done.
+> $foodease-school-lunch order lunch for next month. Always choose non-vegetarian options; on pizza days, add an extra slice.
 
-For a specific period, say:
+For a later order, the assistant should use the saved preferences:
 
-> Use the Foodease School Lunch skill to order lunch for October 5–16. Use the preferences I’ve already given you. I’ll sign in when prompted. Submit the meal orders, but don’t add funds or make a payment. Show me the order when you’re done.
+> $foodease-school-lunch order lunch for October 5–16.
 
 The first time, the assistant may ask which child and meals to order, foods they like or avoid, whether to include optional items, and what to choose when a preferred meal isn’t available. It is designed to reuse those preferences later when it can access the saved family profile. If it can’t find the profile, it should ask rather than guess.
 
